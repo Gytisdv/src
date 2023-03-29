@@ -1,0 +1,38 @@
+@import "~bootstrap/scss/bootstrap";
+body,
+html {
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    &__content {
+        display: flex;
+        &__name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        &__genre {
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-right: 10px;
+        }
+        &__year {
+            font-size: 20px;
+            color: skyblue;
+            margin-right: 10px;
+        }
+    }
+    &__buttons {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        button {
+            margin-left: 5px;
+        }
+    }
+}
